@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kancharla Sai Harshitha's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-style: italic;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #f3e5f5, #e1bee7);
+      color: #333;
+    }
+
+    header {
+      background-color: #7e57c2;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #512da8;
+      text-align: center;
+      padding: 1rem 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 2rem;
+      margin: 1rem;
+      background-color: #f8f4ff;
+      border-radius: 8px;
+      box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      background-color: #7e57c2;
+      color: white;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      section {
+        margin: 0.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Kancharla Sai Harshitha</h1>
+    <p>Web Developer | Designer | Learner</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Kancharla Sai Harshitha, currently pursuing my B.Tech in 3rd year at Mohan Babu University. I am a passionate web developer, continuously learning to build modern, responsive websites. I enjoy designing user-friendly and visually appealing interfaces.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li>Portfolio Website</li>
+      <li>Simple Calculator using HTML/CSS/JavaScript</li>
+      <li>To-do List App</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>HTML, CSS, JavaScript, Responsive Design</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: kancharlaharshitha87@gmail.com</p>
+    <p>Phone: +91-9963288752</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kancharla Sai Harshitha | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
